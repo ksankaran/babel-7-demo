@@ -1,0 +1,22 @@
+{
+  "name": "babel-7-demo",
+  "version": "0.0.1",
+  "description": "Testing few babel 7 plugins",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./index.js --out-file bundle.js",
+    "test": "npm run build && node ./bundle.js"
+  },
+  "keywords": [
+    "babel7",
+    "demo"
+  ],
+  "author": "ksankaran",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40"
+  }
+}
